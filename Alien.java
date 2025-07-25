@@ -1,7 +1,12 @@
+
+
+
 public abstract class Alien
 {
-    public Alien()
+    private int pointValue;
+
+    public Alien(int pointValue)
     {
-        // Constructor for Alien
+        this.pointValue = pointValue;
     }
 }
